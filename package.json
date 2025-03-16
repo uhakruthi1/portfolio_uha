@@ -1,5 +1,5 @@
 {
-  "homepage": "https://uhakruthi1.github.io/portfolio_uha",
+  
   "name": "spaceportfolio",
   "version": "0.1.0",
   "private": true,
@@ -10,9 +10,8 @@
     "build": "next build",
     "export": "next export",
     "start": "next start",
-    "lint": "next lint",
-    "predeploy": "npm run build && npm run export",
-    "deploy": "gh-pages -d out"
+    "lint": "next lint"
+   
   },
 
   "dependencies": {

@@ -9,7 +9,7 @@ import CreativeCanvas from "@/components/main/StarBackground";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Portfolio",
+  title: "uha's Portfolio",
   description: "This is my portfolio",
 };
 
