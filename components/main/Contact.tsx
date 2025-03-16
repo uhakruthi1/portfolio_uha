@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import { FaLinkedin, FaEnvelope } from "react-icons/fa";
 
+
 const Contact = () => {
   const slideInVariants = {
     hidden: { opacity: 0, y: 50 },
@@ -19,11 +20,12 @@ const Contact = () => {
         className="container mx-auto text-center px-6"
       >
         <h2 className="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-purple-500 mb-8">
-          Let's Connect!
+        Let&apos;s Connect!
         </h2>
         <p className="text-xl text-gray-300 mb-8">
-          I’m always open to exciting opportunities. Reach out via email or connect with me on LinkedIn!
-        </p>
+  I&apos;m always open to exciting opportunities. Reach out via email or connect with me on LinkedIn!
+</p>
+
         <div className="flex flex-col md:flex-row justify-center gap-6">
           {/* Email Button */}
           <motion.button

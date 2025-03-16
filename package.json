@@ -1,13 +1,20 @@
 {
+  "homepage": "https://uhakruthi1.github.io/portfolio_uha",
   "name": "spaceportfolio",
   "version": "0.1.0",
   "private": true,
+  
+
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "export": "next export",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "predeploy": "npm run build && npm run export",
+    "deploy": "gh-pages -d out"
   },
+
   "dependencies": {
     "@heroicons/react": "^2.0.18",
     "aos": "^2.3.4",
@@ -29,6 +36,7 @@
     "eslint": "^8",
     "eslint-config-next": "13.5.6",
     "framer-motion": "^10.16.4",
+    "gh-pages": "^6.3.0",
     "maath": "^0.10.4",
     "postcss": "^8",
     "react-intersection-observer": "^9.5.2",
