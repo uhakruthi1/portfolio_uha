@@ -1,8 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true, 
-  trailingSlash: true,   
-  output: 'export',    
+  reactStrictMode: true,
+  // Remove output: 'export' to use Image Optimization
 };
 
 module.exports = nextConfig;
